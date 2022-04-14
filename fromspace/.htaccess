@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond%{HTTP_HOST} ^nitrocatgames.github.io/fromspace 
+RewriteRule ^(.*) https://sites.google.com/view/nitrocat/home/from-space/$1 [P]
